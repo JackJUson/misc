@@ -6,3 +6,12 @@ p, button {
 h2 {
     font-family: 'Fraunces', sans-serif;
 }
+
+body {
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
