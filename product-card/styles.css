@@ -3,46 +3,19 @@ p, button {
     display: inline-block;
 }
 
-h2 {
+h2, .first-price {
     font-family: 'Fraunces', sans-serif;
 }
 
-body {
-    min-height: 100vh;
-    background-color: hsl(30, 38%, 92%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h2 {
+    font-size: 45px;
+    margin: 0;
+    color: hsl(212, 21%, 14%);
+    line-height: 2.8rem;
+    padding: 0 10px 10px 0;
 }
 
 #picture {
     height: 500px;
     width: auto;
-}
-
-.canvas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid black;
-    padding: 0;
-    border-radius: 25px;
-    overflow: hidden;
-}
-
-.one {
-    border: none;
-    padding: 0;
-}
-
-.two {
-    box-sizing: border-box;
-    padding: 0 20px;
-    height: 500px;
-    width: 333.33px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border: 4px solid pink;
-    background-color: hsl(0, 0%, 100%);
 }
