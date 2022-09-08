@@ -51,3 +51,23 @@ body {
     border-radius: 25px;
     overflow: hidden;
 }
+
+
+.child {
+    /*  */
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    /* Dividing parent to 50% one child and 50% second child */
+    flex: 50%;
+}
+
+
+/* Second child box of parent */
+.child:nth-child(2) {
+    background-color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    padding: 40px;
+    display: flex;
+}
