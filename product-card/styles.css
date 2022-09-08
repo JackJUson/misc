@@ -15,7 +15,11 @@ h2 {
     padding: 0 10px 10px 0;
 }
 
-#picture {
-    height: 500px;
-    width: auto;
+.first-title, .description, .second-price {
+    color: hsl(228, 12%, 48%);
+}
+
+.first-title {
+    padding: 0 0 10px 0;
+    letter-spacing: 7px;
 }
