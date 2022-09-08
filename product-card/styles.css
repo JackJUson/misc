@@ -23,3 +23,19 @@ h2 {
     padding: 0 0 10px 0;
     letter-spacing: 7px;
 }
+
+/* html to entire body of page by height. Enables flex content of body to be centered. */
+html {
+    height: 100%;
+}
+
+body {
+    /* Making body height to 100% of page */
+    height: 100%;
+    background-color: hsl(30, 38%, 92%);
+    /* Permenant centering of body content to page by flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
