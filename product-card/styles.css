@@ -47,6 +47,19 @@ h2 {
     margin: 16px 0 16px 25px;
 }
 
+button {
+    margin: 45px 0 0 0;
+    background-color: #58a081;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    height: 12%;
+    width: 95%;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+
 /* html to entire body of page by height. Enables flex content of body to be centered. */
 html {
     height: 100%;
