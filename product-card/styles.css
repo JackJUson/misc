@@ -39,3 +39,15 @@ body {
     align-items: center;
 }
     
+.parent {
+    display: flex;
+    height: 630px;
+    width: 850px;
+    /*
+    This allows parent div to shrink relative to the page size by user
+    max-height: 50%;
+    max-width: 50%;
+    */
+    border-radius: 25px;
+    overflow: hidden;
+}
