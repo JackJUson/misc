@@ -25,6 +25,10 @@ body {
 
     height: 500px;
     width: 550px;
+    
+    /* Round border edges */
+    border-radius: 30px;
+    overflow: hidden;
 
     border: 2px solid yellow;
     background-color:  hsl(210, 26%, 14%);
