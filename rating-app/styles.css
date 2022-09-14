@@ -7,5 +7,10 @@ html {
     height: 100%;
     border: 2px solid green;
 
+    /* Centering elements of html to the center of page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: hsl(216, 12%, 8%);
 }
