@@ -12,5 +12,8 @@ html {
     align-items: center;
     justify-content: center;
 
+    /* Removes horizontal scroll on page */
+    overflow-y: hidden;
+
     background-color: hsl(216, 12%, 8%);
 }
