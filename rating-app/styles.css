@@ -17,3 +17,15 @@ html {
 
     background-color: hsl(216, 12%, 8%);
 }
+
+body {
+    /* Centering elements of body to the center */
+    display: flex;
+    align-items: center;
+
+    height: 500px;
+    width: 550px;
+
+    border: 2px solid yellow;
+    background-color:  hsl(210, 26%, 14%);
+}
