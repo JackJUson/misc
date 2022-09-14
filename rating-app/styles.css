@@ -1,3 +1,11 @@
 * {
     font-family: 'Overpass', sans-serif;
 }
+
+html {
+    /* Enables html to take 100% of page */
+    height: 100%;
+    border: 2px solid green;
+
+    background-color: hsl(216, 12%, 8%);
+}
