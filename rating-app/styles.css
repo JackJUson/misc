@@ -33,3 +33,17 @@ body {
     border: 2px solid yellow;
     background-color:  hsl(210, 26%, 14%);
 }
+
+#container {
+    /* Column elements and spaced between */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    height: 500px;
+    width: 550px;
+
+    padding: 35px;
+    /* Fixed box */
+    box-sizing: border-box;
+}
