@@ -83,3 +83,18 @@ body {
 .option input {
     display: none;
 }
+
+.option .circle {
+    height: 55px;
+    width: 55px;
+    /* Adds circle below radio input number text */
+    border-radius: 50%;
+    background-color: hsl(213, 18%, 22%);
+    color: hsl(217, 12%, 63%);
+
+    font-size: 18px;
+    /* Centering circle with the number text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
