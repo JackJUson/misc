@@ -102,6 +102,9 @@ body {
 .option .circle:hover {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
 }
 
 input[type=radio]:checked + .label-div .circle {
@@ -109,7 +112,7 @@ input[type=radio]:checked + .label-div .circle {
     color: hsl(0, 0%, 100%);
 }
 
-form .btn {
+.btn {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
     font-size: 1.1rem;
@@ -120,6 +123,14 @@ form .btn {
     /* Rounds border */
     border-radius: 23px;
     border: none;
+}
+
+.btn:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
 }
 
 #second-container {
