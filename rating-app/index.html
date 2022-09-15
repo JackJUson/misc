@@ -81,8 +81,12 @@
     Thank you state end -->
 
     <div id="second-container">
+        <p class="result-box">adasd<p>
+        <h2>Thank you!</h2>
         <p>Second container</p>
     </div>
+
+
 
     <script>
         document.getElementById("myForm").addEventListener("submit", function(e) {
@@ -92,5 +96,29 @@
         })
     </script>
 
+    
+    <script>
+        const form = document.querySelector("form");
+        let btn = document.querySelector('button');
+        let para = document.querySelector(".result-box");
+        let response = document.querySelector('input');
+
+        btn.addEventListener("click", resultOption);
+
+        function resultOption() {
+            let choice = form.rate.value;
+            if (choice === '1') {
+                para.textContent = 'You selected 1 out of 5';
+            } else if (choice === '2') {
+                para.textContent = 'You selected 2 out of 5';
+            } else if (choice === '3') {
+                para.textContent = 'You selected 3 out of 5';
+            } else if (choice === '4') {
+                para.textContent = 'You selected 4 out of 5';
+            } else if (choice === '5') {
+                para.textContent = 'You selected 5 out of 5';
+            }
+        }
+    </script>
 </body>
 </html>
