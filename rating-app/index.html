@@ -76,5 +76,13 @@
         <p>Second container</p>
     </div>
 
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function(e) {
+            e.preventDefault();
+            document.getElementById("container").style.display = "none";
+            document.getElementById("second-container").style.display = "flex";
+        })
+    </script>
+
 </body>
 </html>
