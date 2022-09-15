@@ -111,3 +111,11 @@ form .btn {
     border-radius: 23px;
     border: none;
 }
+
+#second-container {
+    height: 500px;
+    width: 550px;
+    background-color: aquamarine;
+    border: 5px solid pink;
+    display: none;
+}
