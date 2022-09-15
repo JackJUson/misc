@@ -137,6 +137,7 @@ input[type=radio]:checked + .label-div .circle {
     height: 100%;
     width: 100%;
     background-color: hsl(210, 26%, 14%);
+    padding: 35px;
     border: 5px solid pink;
 
     /* Script changes display to flex when input */
