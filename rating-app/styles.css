@@ -59,3 +59,14 @@ body {
     margin: 0;
     color: hsl(217, 12%, 63%);
 }
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: hsl(213, 18%, 22%);
+}
