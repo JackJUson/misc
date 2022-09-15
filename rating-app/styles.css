@@ -67,6 +67,19 @@ body {
 
     height: 55px;
     width: 55px;
+    /* Adds circle below image */
     border-radius: 50%;
     background-color: hsl(213, 18%, 22%);
+}
+
+/* Spaces radio option evenly */
+.option {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 25px 15px;
+}
+
+/* Removes radio input button */
+.option input {
+    display: none;
 }
