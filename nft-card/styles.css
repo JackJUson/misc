@@ -18,3 +18,51 @@ html {
 
     border: 2px solid orangered;
 }
+h3 {
+    color: white;
+    font-size: 25px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.container {
+    height: 750px;
+    width: 450px;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    border: 2px solid pink;
+}
+
+.main-image {
+    border-radius: 15px;
+
+    /* Image will always fit 100% width of parent div */
+    max-width: 100%;
+}
+
+.value-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-image {
+    height: 30px;
+    width: 30px;
+}
+
+.name {
+    color: white;
+}
