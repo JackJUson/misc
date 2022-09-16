@@ -1,3 +1,20 @@
 * {
     font-family: 'Outfit', sans-serif;
 }
+
+html {
+    /* Enables html to take 100% of page */
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Background color of main page */
+    background-color: hsl(217, 54%, 11%);
+
+    /* Removes horizontal scroll on page */
+    overflow-y: hidden;
+
+    border: 2px solid orangered;
+}
