@@ -27,6 +27,14 @@ p {
     color: hsl(215, 51%, 70%);
 }
 
+hr {
+    height: 1px;
+    width: 100%;
+    border: none;
+    opacity: 25%;
+    background-color: hsl(215, 51%, 70%);
+}
+
 .container {
     height: 750px;
     width: 450px;
@@ -35,6 +43,10 @@ p {
     border-radius: 15px;
     background-color: hsl(216, 50%, 16%);
     border: 2px solid pink;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main-image {
