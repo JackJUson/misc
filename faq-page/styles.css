@@ -9,10 +9,9 @@ html {
     align-items: center;
     justify-content: center;
 
-    background-color: hsl(273, 75%, 66%);
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 
     overflow-y: hidden;
-    border: 2px solid red;
 }
 
 .container {
