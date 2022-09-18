@@ -1,5 +1,6 @@
 * {
     font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(238, 29%, 16%);
 }
 
 html {
@@ -83,6 +84,11 @@ hr {
 
 details > summary {
     list-style: none;
+    cursor: pointer;
+}
+
+details[open] > summary {
+    font-weight: 700;
 }
 
 details[open] > summary .arrow {
@@ -93,6 +99,10 @@ summary {
     display: flex;
     justify-content: space-between;
     padding: 0 25px 0 0;
+}
+
+.questions:hover {
+    color: hsl(14, 88%, 65%);
 }
 
 summary img {
