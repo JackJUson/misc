@@ -54,6 +54,11 @@ hr {
     max-width: 100%;
 }
 
+.main-image:hover {
+    background-image: url('./images/icon-view.svg');
+    cursor: pointer;
+}
+
 .main-para {
     margin: 0 auto 13px auto;
     font-size: 23px;
@@ -107,4 +112,9 @@ hr {
 
 .name {
     color: whitesmoke;
+}
+
+.hover:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
