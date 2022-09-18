@@ -49,13 +49,19 @@ html {
     overflow: hidden;
 }
 
-.left img {
-    height: 500px;
+.image-first {
+    height: 550px;
     position: absolute;
-    /* Need to check how to move image position within div? */
-    top: 100px;
-    right: 150px;
+    top: 80px;
+    right: 120px;
 }
+.image-second {
+    height: 1400px;
+    position: relative;
+    bottom: 450px;
+    right: 828.5px;
+}
+
 
 p {
     display: none;
