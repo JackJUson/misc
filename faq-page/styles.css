@@ -62,7 +62,7 @@ html {
 
 .image-box {
     height: 250px;
-    position: absolute;
+    position: fixed;
     /* Location of box changes with size of html page */
     bottom: 480px;
     right: 1870px;
@@ -72,10 +72,30 @@ h3 {
     font-weight: 400;
 }
 
+/* Horizontal rule */
 hr {
     height: 1px;
     width: 100%;
     border: none;
     opacity: 25%;
     background-color: hsl(240, 6%, 50%);
+}
+
+details > summary {
+    list-style: none;
+}
+
+details[open] > summary .arrow {
+    transform: rotate(180deg);
+}
+
+summary {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 0 0;
+}
+
+summary img {
+    height: 3%;
+    width: 3%;
 }
