@@ -97,3 +97,15 @@ table caption {
     left: 0.5rem;
 }
 
+tbody td {
+    /* Fixed width */
+    min-width: 4rem;
+    max-width: 4rem;
+    /* 100% viewport */
+    width: 100vw;
+}
+
+tbody th {
+    width: calc(100% - 12rem);
+}
+
