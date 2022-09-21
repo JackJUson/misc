@@ -1,3 +1,19 @@
 body {
     background-color: rgb(184, 132, 46);
 }
+
+#back-wall {
+    background-color: #8B4513;
+    width: 100%;
+    height: 60%;
+
+    /* Enables element out of top-down document flow and allows to adjust relative to ITS contianer */
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* Enables layering */
+    /* Elements with higher z-index will appear to be layered on top of elements with lower z-index */
+    z-index: -1;
+}
+
