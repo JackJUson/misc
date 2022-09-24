@@ -7,3 +7,17 @@ header {
     color: black;
     font-size: 1.8em;
 }
+
+body {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 0 0 350px;
+}
+
+#navbar {
+    position: fixed;
+    border-right: 3px solid rgba(0, 22, 22, 0.4);
+    height: 100%;
+}
