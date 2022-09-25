@@ -79,4 +79,22 @@ section article {
         border: none;
         z-index: 1;
     }
+
+    #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 270px;
+    }
+    
+    .main-section:first-of-type {
+        padding: 35px 25px 25px 25px;
+    }
+
+    .main-section {
+        padding: 20px 25px 10px 25px;
+    }
+
+    .main-section article {
+        padding: 0 0 0 15px;
+    }
 }
