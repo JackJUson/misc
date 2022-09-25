@@ -49,3 +49,7 @@ main {
 .main-section {
     padding: 25px 25px 25px 0;
 }
+
+section article {
+    font-size: 0.96em;
+}
