@@ -46,6 +46,10 @@ main {
     border-right: none;
 }
 
+.main-section:first-of-type {
+    padding: 35px 25px 25px 0;
+}
+
 .main-section {
     padding: 25px 25px 25px 0;
 }
