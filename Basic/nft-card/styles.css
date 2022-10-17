@@ -1,0 +1,120 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+html {
+    /* Enables html to take 100% of page */
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Background color of main page */
+    background-color: hsl(217, 54%, 11%);
+
+    /* Removes horizontal scroll on page */
+    overflow-y: hidden;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    border: none;
+    opacity: 25%;
+    background-color: hsl(215, 51%, 70%);
+}
+
+.container {
+    height: 750px;
+    width: 450px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-image {
+    border-radius: 15px;
+
+    /* Image will always fit 100% width of parent div */
+    max-width: 100%;
+}
+
+.main-image:hover {
+    background-image: url('./images/icon-view.svg');
+    cursor: pointer;
+}
+
+.main-para {
+    margin: 0 auto 13px auto;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.value-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value-image {
+    float: left;
+}
+
+.value-para {
+    margin: 0 0 0 8px;
+    float: right;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.profile {
+    display: flex;
+    justify-content: left;
+    box-sizing: border-box;
+    margin: 5px 0 5px 0;
+}
+
+.profile-image {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+
+.profile-description {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 25px;
+    letter-spacing: 0.5px;
+}
+
+.name {
+    color: whitesmoke;
+}
+
+.hover:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
