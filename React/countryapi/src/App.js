@@ -11,7 +11,9 @@ function App() {
       .then((data) => {
         const countryData = data[0];
         const countryObj = {
-
+          name: countryData.name.common,
+          area: countryData.area,
+          population: countryData.population,
         };
         setCountryData(countryObj);
         console.log(data[0]);
@@ -23,9 +25,9 @@ function App() {
   return (
     <div>
       <CountryCard 
-        country={"something"} 
-        area={"something"} 
-        population={"something"}
+        country={countryData.name} 
+        area={countryData.area} 
+        population={countryData.population}
       />
       <SearchBar fetchCountryData={fetchCountryData}/>
     </div>
