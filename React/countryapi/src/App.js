@@ -3,7 +3,7 @@ import CountryCard from "./components/CountryCard";
 import { useState } from "react";
 
 function App() {
-  const [countryData, setCountryData] = useState(null);
+  const [countryData, setCountryData] = useState('');
 
   const fetchCountryData = (country) => {
     fetch(`https://restcountries.com/v3/name/${country}`)
