@@ -1,4 +1,8 @@
+import {useState} from 'react';
+
 const SearchBar = ({fetchCountryData}) => {
+    const [country, setCountry] = useState('');
+
     return (
         <div>
             <form>
