@@ -3,6 +3,14 @@ import {useState} from 'react';
 const SearchBar = ({fetchCountryData}) => {
     const [country, setCountry] = useState('');
 
+    const handleKeyDown = (event) => {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            console.log(country);
+            fetchCountryData(country);
+        }
+    }
+
     return (
         <div>
             <form>
