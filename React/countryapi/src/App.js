@@ -10,17 +10,20 @@ function App() {
       .then((response) => response.json())
       .then((data) => {
         const countryData = data[0];
-        const countryObj = {
+        let countryObj = {
           flag: countryData.flags[1],
           name: countryData.name.common,
           capital: countryData.capital,
           area: countryData.area,
           population: countryData.population,
-          currency: countryData.currencies[0],
           region: countryData.region,
         };
         setCountryData(countryObj);
-        console.log(data[0]);
+        
+        for (const item in countryData.currencies) {
+          // current = countryData.currencies[item];
+          countryObj.currency = item;
+        }
       });
 
     console.log(`fetchCountryData function is called with ${country}`)
