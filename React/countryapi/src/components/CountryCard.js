@@ -5,7 +5,10 @@ const CountryCard = ({flag, country, capital, area, population, currency, region
                 {/* <img src={flag}/> */}
                 <img src={flag}/>
             </div>
-            <div>
+            <div class="title-container">
+                {country}
+            </div>
+            <div class="inner-container">
                 The country is: {country}
             </div>
             <div>
