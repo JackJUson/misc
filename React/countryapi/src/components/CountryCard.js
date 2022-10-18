@@ -1,6 +1,10 @@
-const CountryCard = ({country, area, population}) => {
+const CountryCard = ({flag, country, capital, area, population, currency, region}) => {
     return (
-        <div>
+        <div class="container">
+            <div>
+                {/* <img src={flag}/> */}
+                <img src={flag}/>
+            </div>
             <div>
                 The country is: {country}
             </div>
