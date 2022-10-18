@@ -9,14 +9,23 @@ const CountryCard = ({flag, country, capital, area, population, currency, region
                 {country}
             </div>
             <div class="inner-container">
-                The country is: {country}
+                <div>
+                    The capital is: {capital}
+                </div>
+                <div>
+                    The area is: {area}
+                </div>
+                <div>
+                    The population is: {population}
+                </div>
+                <div>
+                    The currency is: {currency}
+                </div>
+                <div>
+                    The region is: {region}
+                </div>
             </div>
-            <div>
-                The area is: {area}
-            </div>
-            <div>
-                The population is: {population}
-            </div>
+            
         </div>
     )
 }
