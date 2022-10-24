@@ -1,7 +1,7 @@
 const CountryCard = ({flag, country, capital, area, population, currency, region}) => {
     return (
         <div class="container">
-            <div>
+            <div class="image">
                 {/* <img src={flag}/> */}
                 <img src={flag}/>
             </div>
