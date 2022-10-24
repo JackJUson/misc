@@ -33,6 +33,12 @@ code {
   width: 500px;
 }
 
+.image {
+  border: 1px solid violet;
+  display: flex;
+  justify-content: center;
+}
+
 .inner-container {
   display: flex;
   justify-content: space-between;
