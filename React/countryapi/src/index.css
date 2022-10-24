@@ -39,6 +39,11 @@ code {
   justify-content: center;
 }
 
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
 .inner-container {
   display: flex;
   justify-content: space-between;
