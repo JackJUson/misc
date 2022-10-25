@@ -51,13 +51,13 @@ code {
 }
 
 .box {
-  height: 100px;
-  width: 100px;
+  height: 110px;
+  width: 110px;
 
   background-color: pink;
   border: 1px solid palevioletred;
   border-radius: 25px;
   padding: 10px;
-  margin: 15px;
+  margin: 5px;
   flex: 1 0 auto;
 }
