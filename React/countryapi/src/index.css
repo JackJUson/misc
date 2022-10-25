@@ -52,6 +52,10 @@ code {
 .title-container {
   display: flex;
   justify-content: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+
+  margin: 20px;
 }
 
 .inner-container {
