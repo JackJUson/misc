@@ -38,12 +38,16 @@ code {
   background-color: whitesmoke;
 
   width: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .image {
   border: 1px solid violet;
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   overflow: hidden;
 }
 
