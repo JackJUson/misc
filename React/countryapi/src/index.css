@@ -6,7 +6,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: #a0b5eb;
+  background: linear-gradient(45deg, #a0b5eb, #c9f0e4);
 }
 
 body {
