@@ -10,4 +10,18 @@ body {
 .container {
     height: 100vh;
     width: 100vh;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    position: relative;
+}
+
+.inner-container {
+    border: 2px solid pink;
+    position: absolute;
 }
