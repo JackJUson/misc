@@ -15,23 +15,20 @@ body {
     background-size: contain;
     background-repeat: repeat-x;
     background-color: hsl(224, 82%, 94%);
-}
-
-.container {
-    height: 100vh;
-    width: 100vh;
-    position: relative;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.inner-container {
+.container {
     border: 2px solid pink;
 
     height: 700px;
     width: 450px;
     background-color: white;
     position: absolute;
+    
+    border-radius: 25px;
+    overflow: hidden;
 }
