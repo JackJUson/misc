@@ -1,3 +1,7 @@
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
 html {
     height: 100%;
 }
@@ -22,6 +26,7 @@ body {
 }
 
 .inner-container {
+    background-color: white;
     border: 2px solid pink;
     position: absolute;
 }
