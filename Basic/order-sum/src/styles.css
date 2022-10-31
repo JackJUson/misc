@@ -52,6 +52,12 @@ body {
     margin: 0;
 }
 
+.plan {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .second-button {
     margin: 0 0 20px 0;
 }
