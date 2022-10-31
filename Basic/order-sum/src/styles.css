@@ -53,13 +53,21 @@ body {
 }
 
 .plan img {
-    height: 63%;
+    height: 100%;
 }
 
 .plan {
     width: 75%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.one {
+    margin: 0;
+}
+
+.two {
+    margin: 16px 0 0 0;
 }
 
 .second-button {
