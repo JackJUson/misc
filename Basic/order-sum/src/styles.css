@@ -52,6 +52,10 @@ body {
     margin: 0;
 }
 
+.plan img {
+    height: 63%;
+}
+
 .plan {
     width: 75%;
     display: flex;
