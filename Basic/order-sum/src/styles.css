@@ -83,6 +83,19 @@ body {
     color: hsl(245, 75%, 52%);
 }
 
+.first-button {
+    height: 7%;
+    width: 75%;
+    border: none;
+    border-radius: 10px;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+}
+
 .second-button {
     margin: 0 0 20px 0;
 }
