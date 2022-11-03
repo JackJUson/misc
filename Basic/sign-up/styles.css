@@ -1,0 +1,10 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    /* Giving overall background image with color mixed with image */
+    background-image: url("./images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+}
