@@ -70,6 +70,8 @@ input {
     padding: 0 0 0 25px;
     height: 50px;
 
+    font-weight: 600;
+
     border: 1px solid hsl(246, 25%, 77%);
     border-radius: 5px;
 }
