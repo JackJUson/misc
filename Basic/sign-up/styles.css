@@ -16,6 +16,16 @@ body {
     background-color: hsl(0, 100%, 74%);
 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+.lefthalf {
+    color: white;
+    margin: 0 50px 0 50px;
+}
+
+.lefthalf h1 {
+    font-size: 50px;
+    line-height: 60px;
 }
