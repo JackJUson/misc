@@ -86,3 +86,17 @@ input {
 input:first-of-type {
     margin: 0 0 15px 0;
 }
+
+button {
+    height: 11%;
+
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+
+    border: none;
+    border-radius: 5px;
+}
