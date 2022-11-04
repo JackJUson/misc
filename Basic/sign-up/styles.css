@@ -65,13 +65,17 @@ form {
     justify-content: space-evenly;
 }
 
+input[type=text]:focus {
+    outline: 1px solid hsl(248, 32%, 49%);
+    color:hsl(249, 10%, 26%);
+}
+
 input {
     margin: 15px 0 15px 0;
     padding: 0 0 0 25px;
     height: 50px;
 
     font-weight: 600;
-
     border: 1px solid hsl(246, 25%, 77%);
     border-radius: 5px;
 }
