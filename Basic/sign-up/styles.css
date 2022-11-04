@@ -15,26 +15,34 @@ body {
     background-image: url("./images/bg-intro-desktop.png");
     background-color: hsl(0, 100%, 74%);
 
+    /* Border space outside of body divs */
+    padding: 0 200px 0 200px;
+
+    /* Divide the two div within body into 50% of left and right of page */
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .lefthalf {
-    max-width: 30%;
+    /* left 50% of body */
+    flex: 50%;
     color: white;
-    margin: 0 150px 0 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 0 100px 0 0;
 }
 
 .lefthalf h1 {
     font-size: 50px;
     line-height: 60px;
+
+    margin: 35px 0 0 0;
 }
 
 .righthalf {
-    height: 100%;
-    max-width: 35%;
-    margin: 0 100px 0 0;
+    /* right 50% of body */
+    flex: 50%;
     
     display: flex;
     flex-direction: column;
@@ -47,18 +55,15 @@ body {
 }
 
 .white {
-    height: 55%;
     margin: 25px 0 0 0;
-    min-width: 85%;
     background-color: white;
     padding: 35px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 form {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -119,5 +124,5 @@ button:active {
 }
 
 .white p strong {
-    color: hsl(0, 100%, 74%);
+    color: hsl(0, 100%, 74%) ;
 }
