@@ -4,10 +4,14 @@ body {
     height: 100vh;  
     margin: 0px;
     overflow: hidden;
-  }
+}
   
-  #gallery {
+#gallery {
     height: 140vmax;
     width: 140vmax;  
     position: absolute;
-  }
+}
+
+h1 {
+    text-align: center;
+}
