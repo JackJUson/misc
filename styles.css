@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(219, 171, 171);
+    /* Increasing body div to 100& viewport */
+    height: 100vh;  
+    margin: 0px;
+    overflow: hidden;
+  }
+  
