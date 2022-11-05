@@ -6,3 +6,8 @@ body {
     overflow: hidden;
   }
   
+  #gallery {
+    height: 140vmax;
+    width: 140vmax;  
+    position: absolute;
+  }
