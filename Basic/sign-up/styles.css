@@ -1,5 +1,6 @@
 * {
     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 }
 
 html {
@@ -62,7 +63,9 @@ body {
 }
 
 .white {
-    height: 65%;
+    /* Allow div to be the height to fit components */
+    display: block;
+    overflow: auto;
 
     margin: 25px 0 0 0;
     background-color: white;
@@ -130,7 +133,6 @@ button:active {
 }
 
 .white p {
-    font-size: 10px;
     color: hsl(246, 25%, 77%);
 }
 
