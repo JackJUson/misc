@@ -29,7 +29,8 @@
         </div>
         <div class="white">
             <form action="">
-                <input type="text" placeholder="First Name">
+                <input type="text" id="first" placeholder="First Name">
+                <span id="error"></span>
                 <input type="text" placeholder="Last Name">
                 <input type="text" placeholder="Email Address">
                 <input type="text" placeholder="Password">
@@ -44,7 +45,11 @@
 <!-- Javascript for empty input -->
 <script>
  function errorMessage() {
-    
+    let error = document.getElementById("error");
+    if (document.getElementById("first").length === 0) {
+        error.textContent = "First Name cannot be empty"
+        error.style.color = "red"
+    }
  }
 </script>
 </html>
