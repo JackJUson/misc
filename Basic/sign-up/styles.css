@@ -73,6 +73,7 @@ body {
     padding: 35px;
     border-radius: 10px;
 
+    /* Transparent box shadow */
     box-shadow: 0 6px rgba(85, 81, 81, 0.3);
 }
 
@@ -95,8 +96,11 @@ input {
     height: 70px;
 
     font-weight: 600;
+
+    /* Transition timing for click down effect */
     -webkit-transition: 0.5s;
     transition: 0.5s;
+
     border: 1px solid hsl(246, 25%, 77%);
     border-radius: 5px;
     outline: none;
@@ -129,12 +133,16 @@ button:hover {
 button:active {
     opacity: 1;
     box-shadow: 0 3px hsl(154, 58%, 31%);
+
+    /* 2px down Y-axis */
     transform: translateY(2px);
 }
 
 .white p {
     font-size: 11px;
     margin: 20px 0 0 0;
+
+    /* Simply centering of text without flexbox */
     text-align: center;
     color: hsl(246, 25%, 77%);
 }
