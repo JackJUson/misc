@@ -56,6 +56,9 @@ body {
 .purple {
     background-color: hsl(248, 32%, 49%);
     color: white;
+
+    text-align: center;
+    border-radius: 7px;
 }
 
 .white {
