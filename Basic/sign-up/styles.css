@@ -91,7 +91,7 @@ input[type=text]:focus {
 input {
     margin: 15px 0 15px 0;
     padding: 0 0 0 25px;
-    height: 50px;
+    height: 70px;
 
     font-weight: 600;
     -webkit-transition: 0.5s;
@@ -106,12 +106,11 @@ input:first-of-type {
 }
 
 button {
-    height: 11%;
-
+    height: 16%;
+    margin: 15px 0 0 0;
     color: white;
     background-color: hsl(154, 59%, 51%);
 
-    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.05em;
 
@@ -133,9 +132,13 @@ button:active {
 }
 
 .white p {
+    font-size: 11px;
+    margin: 20px 0 0 0;
+    text-align: center;
     color: hsl(246, 25%, 77%);
 }
 
 .white p strong {
+    font-size: 11px;
     color: hsl(0, 100%, 74%) ;
 }
