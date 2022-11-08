@@ -12,4 +12,10 @@ form.addEventListener('submit', e => {
 });
 
 const validateInputs = () => {
+    /* Trim to remove white spaces of string */
+    const firstnameValue = firstname.value.trim();
+    const lastnameValue = lastname.value.trim();
+    const emailValue = email.value.trim();
+    const passwordValue = password.value.trim();
+
 }
