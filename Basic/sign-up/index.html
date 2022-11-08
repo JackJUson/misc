@@ -29,13 +29,16 @@
         </div>
         <div class="white">
             <form action="">
-                <input type="text" id="first" placeholder="First Name">
-                <span id="error"></span>
-                <input type="text" placeholder="Last Name">
-                <input type="text" placeholder="Email Address">
-                <input type="text" placeholder="Password">
+                <input type="text" id="firstname" placeholder="First Name">
+                <div id="error"></div>
+                <input type="text" id="lastname" placeholder="Last Name">
+                <div id="error"></div>
+                <input type="text" id="email" placeholder="Email Address">
+                <div id="error"></div>
+                <input type="text" id="password" placeholder="Password">
+                <div id="error"></div>
 
-                <button>CLAIM YOUR FREE TRIAL</button>
+                <button type="submit">CLAIM YOUR FREE TRIAL</button>
                 <p>By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
             </form>
         </div>
@@ -44,12 +47,6 @@
 
 <!-- Javascript for empty input -->
 <script>
- function errorMessage() {
-    let error = document.getElementById("error");
-    if (document.getElementById("first").length === 0) {
-        error.textContent = "First Name cannot be empty"
-        error.style.color = "red"
-    }
- }
+
 </script>
 </html>
