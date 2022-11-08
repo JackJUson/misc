@@ -11,6 +11,15 @@ form.addEventListener('submit', e => {
     validateInputs();
 });
 
+const setError = (element, message) => {
+    const inputControl = element.parentElement;
+    const errorDisplay = inputControl.querySelector('.error');
+
+    errorDisplay.innerText = message;
+    inputControl.classList.add('error');
+    inputControl.classList.remove('success');
+}
+
 const validateInputs = () => {
     /* Trim to remove white spaces of string */
     const firstnameValue = firstname.value.trim();
@@ -18,4 +27,8 @@ const validateInputs = () => {
     const emailValue = email.value.trim();
     const passwordValue = password.value.trim();
 
+    if (firstnameValue === '') {
+        setError(firstname, 'First Name cannot be empty')
+    } else {
+    }
 }
