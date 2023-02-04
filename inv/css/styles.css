@@ -1,0 +1,143 @@
+/* CSS Trivia Questions */
+
+/* #1 Box Model */
+/*  Box that wraps around every single html element
+    including margin border padding and content */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 20px solid black;
+    padding: 20px;
+    margin: 20px;
+    /* Default every element is set to content box
+       Content is now 100px by 100px (Content is the text within the middle)
+       
+       But with box-sizing: border-box
+       width and height is equal to the content + padding + border*/
+}
+
+/* #2 Specificity */
+/*  is a weight given to a style to determine
+    if it should be applied or not */
+
+/* Weight of element is higher lower the code is within styles.css
+   Weight specificity order from highest to lowest: 
+     id > class > element > element order */
+
+/* !important prompts highest specificity -> not good practise */
+
+
+/* #3 How to center a div? */
+div {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+/* div {
+    margin: 0 auto; Only centers div horizontally
+}  */
+.outer {
+    display: flex;
+}
+.inner {
+    margin: auto;
+}
+
+.outer {
+    position: relative;
+}
+.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+     
+/* #4 Difference between 'div' and 'section' */
+/* Divs are just used to group elements together,
+   does not have a specific meaning */
+
+/* Sections are used to group together elements
+   that are related to each other
+   Sections are typically structured with headings 
+   then paragraph text etc. */
+
+
+/* #5 Difference between block, inline and inline-block */
+/* Block 
+    starts on a new line and takes up the whole width e.g. <p> */
+
+/* Inline
+    starts on the same line and CANT set the width and height e.g. <span> */
+
+/* Inline-block
+    starts on the same line, you're allowed to set the width and height 
+    Enables inline elements such as <span> to be able to set width and height */
+
+
+/* #6 Difference between position relative, absolute, fixed, sticky and static */
+/* position: static;
+    default element position
+    nothing special
+    elements are positioned by a normal flow of the page */
+
+/* position: relative;
+    also respects the normal flow of the page
+    but can also position by top left bottom right  */
+
+/* position: absolute;
+    element with position absolute does not affect the positioning 
+    of any other element of the page.
+    The position of an absolute element is relative to the closest parent */
+
+/* position: fixed;
+    position is fixed relative to the entire screen */
+
+/* position: sticky;
+    Toggling from position static to position fixed dependent on the
+    given position of scroll by top left bottom right */
+
+
+/* #7 Difference visibility: hidden; and display:none; */
+/*  Visibility: hidden; keeps the element in the DOM but makes it
+    invisible on the screen */
+
+/*  Display: none; removes the element completely from the DOM */
+
+
+/* #8 How to build a triangle in CSS?  */
+div {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid black;
+}
+
+/* #9 What are pseduo elements in CSS? */
+/*  Used to give your elements special effects */
+/* pseudo elements ::after or ::before */
+p::after {
+    content: "!!!";
+}
+
+/* pseduo selectors :hover or :active or :focus */
+p:hover::before {
+    content: "Hi! ";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+/* #10 What are Data Attributes */
+/* Used to store data in HTML */
+<div data-emoji="🎅" data-frontend="randomtext"></div>
+[data-emoji]::before {
+    content: attr(data-emoji);
+}
+[data-frontend]::before {
+    content: attr(data-frontend);
+}
